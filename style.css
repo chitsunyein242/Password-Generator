@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: darkolivegreen;
+}
+
+.container{
+    min-width: 600px;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+.container h1{
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 1.5px;
+    font-size: 35px;
+}
+
+.result {
+    width: 70%;
+    height: 40px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.res-text{
+    width: 95%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #333;
+}
+
+.res-text:focus{
+    outline: none;
+}
+
+.result .copy{
+    color: rgb(167, 20, 88);
+    cursor: pointer;
+}
+
+.input-box{
+    width: 70%;
+    display: flex;
+    column-gap: 20px;
+}
+
+#range{
+    width: 60%;
+}
+
+.range-res{
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.generate{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #333;
+    width: 70%;
+    border-radius: 30px;
+}
